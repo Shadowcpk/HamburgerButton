@@ -24,6 +24,7 @@
     [btn addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];
     
     
+    
     [self.view addSubview:btn];
 }
 -(void)action:(HamburgerButton *)sender{
